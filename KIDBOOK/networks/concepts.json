@@ -1,0 +1,44 @@
+[
+  {
+    "id": "networks/http_https",
+    "name": "HTTP и HTTPS",
+    "description": "Протокол передачи данных между браузером и сервером; HTTP — открытый, HTTPS — зашифрованный",
+    "lemmas": ["HTTP", "HTTPS", "протокол", "браузер", "сервер", "запрос", "ответ", "шифрование", "замочек"],
+    "file": "networks/http_https/README.md"
+  },
+  {
+    "id": "networks/http_request",
+    "name": "HTTP-запрос",
+    "description": "Сообщение, которое браузер отправляет серверу, чтобы получить страницу или данные",
+    "lemmas": ["запрос", "HTTP-запрос", "GET", "POST", "метод"],
+    "file": "networks/http_https/README.md"
+  },
+  {
+    "id": "networks/http_response",
+    "name": "HTTP-ответ",
+    "description": "Ответ сервера на запрос браузера, содержащий статус и данные",
+    "lemmas": ["ответ", "HTTP-ответ", "статус", "заголовок"],
+    "file": "networks/http_https/README.md"
+  },
+  {
+    "id": "networks/status_code",
+    "name": "Код статуса HTTP",
+    "description": "Трёхзначное число в ответе сервера, сообщающее об успехе или ошибке (200, 404, 500...)",
+    "lemmas": ["код статуса", "404", "200", "500", "ошибка", "статус"],
+    "file": "networks/http_https/README.md"
+  },
+  {
+    "id": "networks/tls_ssl",
+    "name": "TLS / SSL",
+    "description": "Протокол шифрования, который защищает данные в HTTPS-соединении",
+    "lemmas": ["TLS", "SSL", "шифрование", "безопасность", "сертификат"],
+    "file": "networks/http_https/README.md"
+  },
+  {
+    "id": "networks/certificate",
+    "name": "Цифровой сертификат",
+    "description": "Электронный «паспорт» сайта, подтверждающий его подлинность; выдаётся удостоверяющим центром",
+    "lemmas": ["сертификат", "SSL-сертификат", "удостоверяющий центр", "CA", "HTTPS"],
+    "file": "networks/http_https/README.md"
+  }
+]
