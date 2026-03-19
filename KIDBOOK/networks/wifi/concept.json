@@ -4,7 +4,7 @@
         "topic": "Wi-Fi и локальная сеть",
         "author_group": "wifi-team",
         "members": [
-            "bityamitya"
+            "Koval Mete"
         ],
         "concepts": [
             {
@@ -28,7 +28,7 @@
                 ],
                 "file": "KIDBOOK/network/wifi-basics/README.md",
                 "wikidata_id": "Q29643",
-                "author": "bityamitya"
+                "author": "Koval Mete"
             },
             {
                 "id": "KIDBOOK/network/router",
@@ -49,7 +49,7 @@
                 ],
                 "file": "KIDBOOK/network/wifi-basics/router.md",
                 "wikidata_id": "Q14925",
-                "author": "bityamitya"
+                "author": "Koval Mete"
             },
             {
                 "id": "KIDBOOK/network/radio-physics",
@@ -68,7 +68,7 @@
                 ],
                 "file": "KIDBOOK/network/wifi-basics/radio.md",
                 "wikidata_id": "Q703444",
-                "author": "bityamitya"
+                "author": "Koval Mete"
             },
             {
                 "id": "KIDBOOK/network/mobile-vs-wifi",
@@ -87,7 +87,7 @@
                 ],
                 "file": "KIDBOOK/network/wifi-basics/mobile.md",
                 "wikidata_id": "Q18356973",
-                "author": "bityamitya"
+                "author": "Koval Mete"
             },
             {
                 "id": "KIDBOOK/network/wifi-security",
@@ -107,7 +107,7 @@
                 ],
                 "file": "KIDBOOK/network/wifi-basics/security.md",
                 "wikidata_id": "Q1139447",
-                "author": "bityamitya"
+                "author": "Koval Mete"
             }
         ]
     }
