@@ -241,8 +241,21 @@
     "id": "networks/internet_at_home",
     "name": "Как интернет пришёл в каждый дом",
     "description": "Подстатья: модемы, провайдеры, BBS, браузеры, Wi-Fi, соцсети — путь из лабораторий в дома",
-    "lemmas": ["модем", "провайдер", "BBS", "браузер", "Mosaic", "Netscape", "Internet Explorer", "Chrome", "Wi-Fi", "соцсети", "AOL"],
+    "lemmas": [
+      "модем",
+      "провайдер",
+      "BBS",
+      "браузер",
+      "Mosaic",
+      "Netscape",
+      "Internet Explorer",
+      "Chrome",
+      "Wi-Fi",
+      "соцсети",
+      "AOL"
+    ],
     "file": "networks/history/internet_at_home.md"
+  },
   {
     "id": "networks/dns",
     "name": "DNS",
