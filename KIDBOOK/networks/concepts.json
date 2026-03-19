@@ -56,5 +56,80 @@
     "lemmas": ["cookies", "куки", "cookie", "сессия", "session_id", "Set-Cookie", "корзина", "авторизация", "слежка"],
     "file": "networks/http_https/cookies.md",
     "wikidata_id": "Q483326"
+  },
+  {
+    "id": "networks/what_happens",
+    "name": "Что происходит, когда открываешь сайт",
+    "description": "Обзорная статья: полный путь запроса от ввода URL до отображения страницы — DNS, TCP, HTTP, рендеринг",
+    "lemmas": ["открыть сайт", "URL", "путь запроса", "как работает интернет", "что происходит"],
+    "file": "networks/general/whatshappen.md"
+  },
+  {
+    "id": "networks/url",
+    "name": "URL",
+    "description": "Адрес ресурса в интернете, состоящий из протокола, домена и пути (например, https://example.com/page)",
+    "lemmas": ["URL", "адрес сайта", "ссылка", "протокол", "домен", "путь"],
+    "file": "networks/general/whatshappen.md"
+  },
+  {
+    "id": "networks/browser",
+    "name": "Браузер",
+    "description": "Программа для просмотра веб-страниц: запрашивает страницы по HTTP, разбирает HTML/CSS/JS и отображает их на экране",
+    "lemmas": ["браузер", "Chrome", "Firefox", "Safari", "Edge", "Opera"],
+    "file": "networks/general/browser.md",
+    "wikidata_id": "Q6368"
+  },
+  {
+    "id": "networks/rendering_engine",
+    "name": "Движок рендеринга",
+    "description": "Компонент браузера, который превращает HTML и CSS в изображение на экране; примеры: Blink, WebKit, Gecko",
+    "lemmas": ["движок рендеринга", "рендеринг", "Blink", "WebKit", "Gecko", "DOM", "CSSOM", "layout", "paint"],
+    "file": "networks/general/browser.md"
+  },
+  {
+    "id": "networks/dom",
+    "name": "DOM",
+    "description": "Document Object Model — дерево элементов веб-страницы, которое строит браузер из HTML-кода",
+    "lemmas": ["DOM", "Document Object Model", "дерево элементов", "дерево документа"],
+    "file": "networks/general/browser.md"
+  },
+  {
+    "id": "networks/javascript_engine",
+    "name": "JavaScript-движок",
+    "description": "Компонент браузера, который исполняет JavaScript-код; самый известный — V8 от Google",
+    "lemmas": ["JavaScript-движок", "V8", "SpiderMonkey", "JavaScriptCore", "JS-движок"],
+    "file": "networks/general/browser.md"
+  },
+  {
+    "id": "networks/web_server",
+    "name": "Веб-сервер",
+    "description": "Программа или компьютер, принимающий HTTP-запросы и отдающий страницы браузеру; примеры: Nginx, Apache",
+    "lemmas": ["веб-сервер", "сервер", "Nginx", "Apache", "HTTP-сервер", "хостинг"],
+    "file": "networks/general/server.md",
+    "wikidata_id": "Q11402869"
+  },
+  {
+    "id": "networks/data_center",
+    "name": "Дата-центр",
+    "description": "Специализированное здание для размещения серверов с бесперебойным питанием, охлаждением и охраной",
+    "lemmas": ["дата-центр", "ЦОД", "data center", "серверная", "серверная стойка"],
+    "file": "networks/general/server.md",
+    "wikidata_id": "Q190581"
+  },
+  {
+    "id": "networks/cdn",
+    "name": "CDN",
+    "description": "Content Delivery Network — сеть серверов по всему миру, которая отдаёт контент с ближайшего к пользователю узла",
+    "lemmas": ["CDN", "сеть доставки контента", "Cloudflare", "Akamai", "кеширование контента"],
+    "file": "networks/general/server.md",
+    "wikidata_id": "Q110562"
+  },
+  {
+    "id": "networks/cloud",
+    "name": "Облачные серверы",
+    "description": "Виртуальные серверы в дата-центрах крупных компаний (AWS, Google Cloud, Azure), предоставляемые в аренду",
+    "lemmas": ["облако", "облачные вычисления", "AWS", "Google Cloud", "Azure", "Yandex Cloud", "хостинг"],
+    "file": "networks/general/server.md",
+    "wikidata_id": "Q483639"
   }
 ]
