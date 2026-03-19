@@ -3,84 +3,193 @@
     "id": "networks/http_https",
     "name": "HTTP и HTTPS",
     "description": "Протокол передачи данных между браузером и сервером; HTTP — открытый, HTTPS — зашифрованный",
-    "lemmas": ["HTTP", "HTTPS", "протокол", "браузер", "сервер", "запрос", "ответ", "шифрование", "замочек"],
+    "lemmas": [
+      "HTTP",
+      "HTTPS",
+      "протокол",
+      "браузер",
+      "сервер",
+      "запрос",
+      "ответ",
+      "шифрование",
+      "замочек"
+    ],
     "file": "networks/http_https/README.md"
   },
   {
     "id": "networks/http_request",
     "name": "HTTP-запрос",
     "description": "Сообщение, которое браузер отправляет серверу, чтобы получить страницу или данные",
-    "lemmas": ["запрос", "HTTP-запрос", "GET", "POST", "метод"],
+    "lemmas": [
+      "запрос",
+      "HTTP-запрос",
+      "GET",
+      "POST",
+      "метод"
+    ],
     "file": "networks/http_https/README.md"
   },
   {
     "id": "networks/http_response",
     "name": "HTTP-ответ",
     "description": "Ответ сервера на запрос браузера, содержащий статус и данные",
-    "lemmas": ["ответ", "HTTP-ответ", "статус", "заголовок"],
+    "lemmas": [
+      "ответ",
+      "HTTP-ответ",
+      "статус",
+      "заголовок"
+    ],
     "file": "networks/http_https/README.md"
   },
   {
     "id": "networks/status_code",
     "name": "Код статуса HTTP",
     "description": "Трёхзначное число в ответе сервера, сообщающее об успехе или ошибке (200, 404, 500...)",
-    "lemmas": ["код статуса", "404", "200", "500", "ошибка", "статус"],
+    "lemmas": [
+      "код статуса",
+      "404",
+      "200",
+      "500",
+      "ошибка",
+      "статус"
+    ],
     "file": "networks/http_https/README.md"
   },
   {
     "id": "networks/tls_ssl",
     "name": "TLS / SSL",
     "description": "Протокол шифрования, который защищает данные в HTTPS-соединении",
-    "lemmas": ["TLS", "SSL", "шифрование", "безопасность", "сертификат"],
+    "lemmas": [
+      "TLS",
+      "SSL",
+      "шифрование",
+      "безопасность",
+      "сертификат"
+    ],
     "file": "networks/http_https/README.md"
   },
   {
     "id": "networks/certificate",
     "name": "Цифровой сертификат",
     "description": "Электронный «паспорт» сайта, подтверждающий его подлинность; выдаётся удостоверяющим центром",
-    "lemmas": ["сертификат", "SSL-сертификат", "удостоверяющий центр", "CA", "HTTPS"],
-    "file": "networks/http_https/README.md"
+    "lemmas": [
+      "сертификат",
+      "SSL-сертификат",
+      "удостоверяющий центр",
+      "CA",
+      "HTTPS"
+    ],
+    "file": "networks/http_https/http_https.md"
   },
   {
     "id": "networks/mac_address",
     "name": "MAC-адрес",
     "description": "Уникальный физический адрес сетевой карты, зашитый на заводе; используется внутри локальной сети",
-    "lemmas": ["MAC-адрес", "MAC", "физический адрес", "сетевая карта", "OUI"],
+    "lemmas": [
+      "MAC-адрес",
+      "MAC",
+      "физический адрес",
+      "сетевая карта",
+      "OUI"
+    ],
     "file": "networks/ip_mac/ip_and_mac.md"
   },
   {
     "id": "networks/ip_address",
     "name": "IP-адрес",
     "description": "Сетевой адрес устройства, выдаваемый при подключении; бывает IPv4 и IPv6",
-    "lemmas": ["IP-адрес", "IP", "IPv4", "IPv6", "адрес"],
+    "lemmas": [
+      "IP-адрес",
+      "IP",
+      "IPv4",
+      "IPv6",
+      "адрес"
+    ],
     "file": "networks/ip_mac/ip_and_mac.md"
   },
   {
     "id": "networks/arp",
     "name": "ARP",
     "description": "Протокол разрешения адресов: позволяет узнать MAC-адрес устройства по его IP-адресу",
-    "lemmas": ["ARP", "ARP-запрос", "ARP-кэш", "разрешение адресов"],
+    "lemmas": [
+      "ARP",
+      "ARP-запрос",
+      "ARP-кэш",
+      "разрешение адресов"
+    ],
     "file": "networks/ip_mac/ip_and_mac.md"
   },
   {
     "id": "networks/dhcp",
     "name": "DHCP",
     "description": "Протокол автоматической выдачи IP-адресов устройствам при подключении к сети",
-    "lemmas": ["DHCP", "динамический адрес", "выдача адреса"],
+    "lemmas": [
+      "DHCP",
+      "динамический адрес",
+      "выдача адреса"
+    ],
     "file": "networks/ip_mac/ip_and_mac.md"
   },
   {
     "id": "networks/nat",
     "name": "NAT",
     "description": "Трансляция сетевых адресов: позволяет многим устройствам выходить в интернет через один публичный IP",
-    "lemmas": ["NAT", "трансляция адресов", "приватный адрес", "публичный адрес"],
+    "lemmas": [
+      "NAT",
+      "трансляция адресов",
+      "приватный адрес",
+      "публичный адрес"
+    ],
     "file": "networks/ip_mac/nat.md"
   },
   {
     "id": "networks/how_to_find_address",
     "name": "Как узнать свой IP и MAC-адрес",
     "description": "Пошаговая инструкция для Windows, macOS и Linux: как найти публичный IP, локальный IP и MAC-адрес",
-    "lemmas": ["узнать IP", "узнать MAC", "ipconfig", "ifconfig", "whatismyip", "arp -a"],
+    "lemmas": [
+      "узнать IP",
+      "узнать MAC",
+      "ipconfig",
+      "ifconfig",
+      "whatismyip",
+      "arp -a"
+    ],
     "file": "networks/ip_mac/how_to_find_address.md"
+  },
+  {
+    "id": "networks/tls_article",
+    "name": "TLS и шифрование",
+    "description": "Подстатья: как работает протокол TLS — симметричное и асимметричное шифрование, рукопожатие, цифровые сертификаты",
+    "lemmas": [
+      "TLS",
+      "SSL",
+      "шифрование",
+      "рукопожатие",
+      "handshake",
+      "ключ",
+      "асимметричное шифрование",
+      "симметричное шифрование",
+      "Let's Encrypt"
+    ],
+    "file": "networks/http_https/tls.md",
+    "wikidata_id": "Q193143"
+  },
+  {
+    "id": "networks/cookies",
+    "name": "Cookies (куки)",
+    "description": "Подстатья: что такое cookies, зачем нужны, как работают, виды (сессионные, постоянные, сторонние), безопасность",
+    "lemmas": [
+      "cookies",
+      "куки",
+      "cookie",
+      "сессия",
+      "session_id",
+      "Set-Cookie",
+      "корзина",
+      "авторизация",
+      "слежка"
+    ],
+    "file": "networks/http_https/cookies.md",
+    "wikidata_id": "Q483326"
   }
 ]
